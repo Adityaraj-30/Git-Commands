@@ -1,7 +1,7 @@
 # Git-Commands
 
-1. git config –global user.name “[name]” ->sets author name
-     git config –global user.email “[email address]” ->sets author email id
+   1. git config –global user.name “[name]” ->sets author name
+      git config –global user.email “[email address]” ->sets author email id
 
    2. git init [repository name] ->start new repository
 
@@ -9,52 +9,52 @@
 
    4. git add [file] ->adds a file to the staging area.
 
-   5. git commit -m “[ Type in the commit message]” ->records or snapshots the file permanently in the version history.
-     git commit -a ->commits any files you’ve changed since then.&commits any files you’ve added
+   5. git commit -m “[ Type in the commit message]” ->records or snapshots the     file permanently in the version history.
+    git commit -a ->commits any files you’ve changed since then.&commits any files you’ve added
 
    6. git diff ->shows the file differences which are not yet staged.
-     git diff –staged ->differences between the files in the staging area and the latest version present.
-     git diff [first branch] [second branch] ->differences between the two branches mentioned.
+    git diff –staged ->differences between the files in the staging area and the latest version present.
+    git diff [first branch] [second branch] ->differences between the two branches mentioned.
 
    7. git reset [file] ->unstages the file, but it preserves the file contents.
-     git reset [commit] ->undoes all the commits after the specified commit and preserves the changes locally.
-     git reset –hard [commit] ->discards all history and goes back to the specified commit.
+    git reset [commit] ->undoes all the commits after the specified commit and preserves the changes locally.
+    git reset –hard [commit] ->discards all history and goes back to the specified commit.
 
-  8. git status ->command lists all the files that have to be committed.
+    8. git status ->command lists all the files that have to be committed.
 
-  9. git rm [file] ->deletes the file from your working directory and stages the deletion.
+   9. git rm [file] ->deletes the file from your working directory and stages the deletion.
 
    10. git log ->used to list the version history for the current branch.
-    git log –follow[file] ->lists version history for a file, including the renaming of files also.
+     git log –follow[file] ->lists version history for a file, including the renaming of files also.
 
-   11. git show [commit] ->shows the metadata and content changes of the specified commit.
+   11. git show [commit] ->shows the metadata and content changes of the specified  commit.
 
    12. git tag [commitID] ->used to give tags to the specified commit.
 
    13. git branch ->lists all the local branches in the current repository.
-    git branch [branch name] -> creates a new branch.
-    git branch -d [branch name] -> deletes the feature branch.
+     git branch [branch name] -> creates a new branch.
+     git branch -d [branch name] -> deletes the feature branch.
 
    14. git checkout [branch name] -> used to switch from one branch to another
-    git checkout -b [branch name] ->creates a new branch and also switches to it.
+     git checkout -b [branch name] ->creates a new branch and also switches to it.
 
-   15. git merge [branch name] ->merges the specified branch’s history into the current branch.
+   15. git merge [branch name] ->merges the specified branch’s history into the  current branch.
 
-   16. git remote add [variable name] [Remote Server Link] ->used to connect your local repository to the remote server.
+   16. git remote add [variable name] [Remote Server Link] ->used to connect your  local repository to the remote server.
 
-   17. git push [variable name] master ->sends the committed changes of master branch to your remote repository.
-    git push [variable name] [branch] ->sends the branch commits to your remote repository.
-    git push –all [variable name] ->pushes all branches to your remote repository.
-    git push [variable name] :[branch name] ->deletes a branch on your remote repository.
+   17. git push [variable name] master ->sends the committed changes of master  branch to your remote repository.
+   git push [variable name] [branch] ->sends the branch commits to your remote repository.
+   git push –all [variable name] ->pushes all branches to your remote repository.
+   git push [variable name] :[branch name] ->deletes a branch on your remote repository.
 
-   18. git pull [Repository Link] ->fetches and merges changes on the remote server to your working directory.
+   18. git pull [Repository Link] ->fetches and merges changes on the remote  server to your working directory.
 
    19. git stash save ->stores all the modified tracked files.
 
    20. git stash pop ->restores the most recently    stashed files.
-      git stash list ->lists all stashed changesets.
-     git stash drop ->discards the most recently stashed changeset.
+    git stash list ->lists all stashed changesets.
+    git stash drop ->discards the most recently stashed changeset.
    21. git checkout -b [name of the branch] -> to create a new branch
-     git checkout [name of the branch] -> to navigate into the named branch
-     git checkout -d [name of the branch] -> to delete the branch
-     git merge [branch name] -> to merge the branch to current branch in working directory
+    git checkout [name of the branch] -> to navigate into the named branch
+    git checkout -d [name of the branch] -> to delete the branch
+    git merge [branch name] -> to merge the branch to current branch in working directory
