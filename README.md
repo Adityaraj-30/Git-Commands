@@ -42,7 +42,7 @@
 
    16. git remote add [variable name] [Remote Server Link] ->used to connect your  local repository to the remote server.
 
-   17. git push [variable name] master ->sends the committed changes of master  branch to your remote repository.
+   17. git push [variable name] main ->sends the committed changes of master  branch to your remote repository.
    git push [variable name] [branch] ->sends the branch commits to your remote repository.
    git push –all [variable name] ->pushes all branches to your remote repository.
    git push [variable name] :[branch name] ->deletes a branch on your remote repository.
